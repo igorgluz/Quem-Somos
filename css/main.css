@@ -1,0 +1,83 @@
+/*************************
+********About CSS*******
+**************************/
+#about-us {
+  background-image: url(http://static.ejectufrn.com.br/eject/sitio/images/about-bg.png);
+  padding: 60px 0;
+}
+
+#about-us h2 {
+  margin-top: 0;
+  color: #fff;
+}
+
+#about-us .lead {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#about-us h1 {
+  margin-bottom: 30px;
+}
+
+.progress{
+  height: 20px;
+  background-color: #fff;
+  border-radius: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  margin-bottom: 25px;
+}
+
+.progress-bar{
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  text-align: right;
+  padding-right: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.progress .progress-bar.six-sec-ease-in-out {
+  -webkit-transition: width 2s ease-in-out;
+  transition:  width 2s ease-in-out;
+}
+
+/*************************
+*******Features CSS*******
+**************************/
+#features {
+  text-align: center;
+  background-image: url(http://static.ejectufrn.com.br/eject/sitio/images/features-bg.png);
+}
+
+#features i {
+  font-size: 48px;
+}
+
+#features h3 {
+  margin-top: 15px;
+  font-size: 30px;
+  margin-bottom: 7px;
+  color: #fff;
+}
+
+#features p {
+  margin-top: 15px;
+  font-size: 16px;
+  margin-bottom: 7px;
+  color: #fff;
+}
+
+#features .slider-overlay {
+  opacity: 0.8;
+}
+
+.feactures-icon{
+  background-image: url('http://static.ejectufrn.com.br/eject/sitio/images/ico/icones.svg');
+  background-size: 80px 570px;
+  height: 80px;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
