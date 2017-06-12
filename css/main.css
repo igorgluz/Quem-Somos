@@ -42,13 +42,19 @@
   -webkit-transition: width 2s ease-in-out;
   transition:  width 2s ease-in-out;
 }
+/* Parte do Quem Somos, para deixar branco*/
+.branco {
+  color:#fff;
+}
 
 /*************************
 *******Features CSS*******
 **************************/
 #features {
   text-align: center;
-  background-image: url(http://static.ejectufrn.com.br/eject/sitio/images/features-bg.png);
+  background-image: url(../img/about-bg.png);
+  background-repeat: no-repeat;
+  background-size: 1800px 750px;
 }
 
 #features i {
@@ -80,4 +86,18 @@
   width: 80px;
   margin-left: auto;
   margin-right: auto;
+}
+
+/********************/
+/**** PORTIFOLIO ****/
+/********************/
+
+.pad {
+  margin-top:-2em;
+}
+#plano_de_fundo{
+  background-image:url('../img/features-bg.png');
+}
+.pad1 {
+  margin-top: 2em;
 }
