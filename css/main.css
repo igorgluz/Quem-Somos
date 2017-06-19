@@ -55,6 +55,7 @@
   background-image: url(../img/about-bg.png);
   background-repeat: no-repeat;
   background-size: 1800px 750px;
+  background-size: cover;
 }
 
 #features i {
@@ -97,7 +98,11 @@
 }
 #plano_de_fundo{
   background-image:url('../img/features-bg.png');
+  background-size: cover;
 }
 .pad1 {
   margin-top: 2em;
 }
+ .fundo{
+   background-color: white;
+ }
