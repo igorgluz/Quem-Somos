@@ -1,55 +1,211 @@
+/**
+ *
+ *  TOC:
+ *  01. webfonts and iconfonts 
+ *  02. base style overrides (tamanho da área de serviços e espaçamento entre as letras)
+ *  03. buttons da parte de serviços 
+ *  04. Nome do meio da parte de serviços, e a linha debaixo dele
+ *  05. pricing section - Parte de Serviços
+ * =================================================================== 
+ */
+
+/** 
+ * ===================================================================
+ * base style overrides (tamanho da área de serviços e espaçamento entre as letras)
+ *
+ * ------------------------------------------------------------------- 
+ */
+
+
+
+/** 
+ * ===================================================================
+ * buttons da parte de serviços
+ *
+ * ------------------------------------------------------------------- 
+ */
+
+.button,
+button,
+input[type="button"] {
+  display: inline-block;
+  font-family: "delicious", sans-serif;
+  font-size: 1.6rem;
+  height: 5rem;
+  line-height: 5rem;
+  padding: 0 2rem;
+  margin: 0 .3rem 1rem 0;
+  background: #d8d8d8;
+  color: #252525;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  border: none;
+  border-radius: 1000px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+button.large, .button.large {
+  height: 6rem !important;
+  line-height: 6rem !important;
+  padding: 0rem 3rem !important;
+}
+
+/** 
+ * ===================================================================
+ * Nome do meio da parte de serviços, e a linha debaixo dele
+ *
+ * ------------------------------------------------------------------- 
+ */
+
+.section-intro {
+  max-width: 700px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5.2rem;
+  position: relative;
+}
+.section-intro h2 {
+  font-family: "adam.cg", serif;
+  font-size: 4rem;
+  color: #252525;
+  line-height: 1.25;
+  margin-bottom: 1.2rem;
+
+}
+
+.section-intro .with-bottom-line::after {
+  display: block;
+  background-color: #05bca9;
+  width: 120px;
+  height: 3px;
+  content: '\0020';
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  margin-left: -60px;
+}
+
+/** 
+ * ===================================================================
+ * pricing section - Parte de Serviços
+ *
+ * ------------------------------------------------------------------- 
+ */
+
+#pricing {
+  background: #EAEAED;
+  padding-top: 12rem;
+  padding-bottom: 4rem;
+}
+.pricing-content .price-block {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.pricing-content .price-block .top-part,
+.pricing-content .price-block .bottom-part {
+  padding: 2rem;
+}
+.pricing-content .price-block .top-part {
+  background: #536683;
+  color: #FFFFFF;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.pricing-content .price-block .plan-title {
+  color: #FFFFFF;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.2rem;
+  font-size: 2.4rem;
+  position: relative;
+}
+.pricing-content .price-block .plan-title::after {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 80px;
+  height: 1px;
+  content: '\0020';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -40px;
+}
+
+.pricing-content .price-block .button:hover,
+.pricing-content .price-block .button:focus {
+  background: #58687b;
+  color: #FFFFFF;
+}
+.pricing-content .price-block .features {
+  list-style: none;
+  font-family: "delicious", sans-serif;
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.4);
+  margin: .6rem 0 1.8rem 0;
+}
+.pricing-content .price-block .features li {
+  padding: .6rem 0;
+  border-bottom: 1px solid #EAEAED;
+}
+.pricing-content .price-block .features li {
+  color: #353F49;
+  font-family: "delicious", serif;
+  margin-right: 40px;
+}
+.pricing-content .price-block .features li:last-child {
+  border: none;
+}
+.pricing-content .primary .top-part {
+  background: #05bca9;
+}
+.pricing-content .primary .top-part::before {
+  content: attr(data-info);
+  display: block;
+  min-height: 48px;
+  line-height: 48px;
+  width: 75%;
+  text-align: center;
+  color: #FFFFFF;
+  background: #38424e;
+  font-family: "raleway-heavy", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .15rem;
+  position: absolute;
+  bottom: -18px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 500;
+  border-radius: 5px;
+}
+
+
+
 /*************************
 ********About CSS*******
 **************************/
-#about-us {
-  background-image: url(http://static.ejectufrn.com.br/eject/sitio/images/about-bg.png);
-  padding: 60px 0;
-}
 
-#about-us h2 {
-  margin-top: 0;
-  color: #fff;
-}
 
-#about-us .lead {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-#about-us h1 {
-  margin-bottom: 30px;
-}
-
-.progress{
-  height: 20px;
-  background-color: #fff;
-  border-radius: 0;
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  margin-bottom: 25px;
-}
-
-.progress-bar{
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  text-align: right;
-  padding-right: 12px;
-  font-size: 12px;
-  font-weight: 600;
-}
-
-.progress .progress-bar.six-sec-ease-in-out {
-  -webkit-transition: width 2s ease-in-out;
-  transition:  width 2s ease-in-out;
-}
 /* Parte do Quem Somos, para deixar branco*/
 .branco {
   color:#fff;
 }
 
-/*************************
-*******Features CSS*******
-**************************/
+/*************************************************
+*******Features CSS do Quem somos e Equipe *******
+**************************************************/
 #features {
   text-align: center;
   background-image: url(../img/about-bg.png);
@@ -58,7 +214,7 @@
 }
 
 #features i {
-  font-size: 48px;
+  font-size: 190px;
 }
 
 #features h3 {
@@ -70,7 +226,7 @@
 
 #features p {
   margin-top: 15px;
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 7px;
   color: #fff;
 }
@@ -101,3 +257,4 @@
 .pad1 {
   margin-top: 2em;
 }
+
