@@ -211,6 +211,7 @@ button.large, .button.large {
   background-image: url(../img/about-bg.png);
   background-repeat: no-repeat;
   background-size: 1800px 750px;
+  background-size: cover;
 }
 
 #features i {
@@ -253,8 +254,15 @@ button.large, .button.large {
 }
 #plano_de_fundo{
   background-image:url('../img/features-bg.png');
+  background-size: cover;
 }
 .pad1 {
   margin-top: 2em;
 }
+<<<<<<< HEAD
 
+=======
+ .fundo{
+   background-color: white;
+ }
+>>>>>>> origin/master
