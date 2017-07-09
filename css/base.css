@@ -54,9 +54,6 @@ html {
 [class*="col-"], .bgrid {
 	float: left;
 }
-[class*="col-"] + [class*="col-"]:last-child {
-	float: right;
-}
 [class*="col-"] {
 	padding: 0 20px;
 }
@@ -95,14 +92,4 @@ html {
 }
 .col-twelve, .col-full {
 	width: 100%;
-}
-
-/** 
- * ===================================================================
- * block grids 
- *
- * ------------------------------------------------------------------- 
- */
-.block-1-4 .bgrid {
-	width: 25%;
 }
