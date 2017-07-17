@@ -460,3 +460,143 @@ Parallax
   opacity: 0.7;
   z-index: -1;
 }
+
+/* ==========================
+Footer
+============================= */
+.back-contato {
+    background-color: #666;   
+}
+.google-maps {
+  position: relative;
+  padding-bottom: 45%; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+.color-white-menu {
+  color: white;
+}
+
+/* ==========================
+Footer
+============================= */
+#footer {
+  background-color:black;
+
+}
+#footer .social-icons {
+  margin-top: 15px;
+}
+
+#footer .social-icons ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .social-icons ul li a {
+  background-color: rgba(0,0,0,.5);
+  border-radius: 4px;
+  line-height: 33px;
+}
+
+#footer .social-icons ul li a:hover {
+  color: #fff
+}
+
+#footer .footer1 .social-icons ul li a.envelope:hover {
+  background-color: #CECB26;
+}
+
+#footer .footer1 .social-icons ul li a.facebook:hover {
+  background-color: #3b5999;
+}
+#footer .footer1 .social-icons ul li a.twitter:hover {
+  background-color: #2ac6f7;
+}
+#footer .footer1 .social-icons ul li a.instagram:hover {
+  background-color: #B98432;;
+}
+#footer .footer1 .social-icons ul li a.linkedin:hover {
+  background-color: #036dc0;
+}
+#footer .footer1 .social-icons ul li a.youtube:hover {
+  background-color: #E62117;
+}
+#footer .address a{
+  color:#ffcf0b;
+}
+#footer .address a:hover {
+  color:#337ab7;
+}
+.footer1 {
+  background-color: #1c1c1c;   
+}
+.footer2 {
+  background-color: #252525;
+}
+.h4-footer {
+  color:#ffcf0b; 
+}
+.p-footer {
+  color:white;
+}
+.social-icons {
+  margin-top:30px;
+  text-align: center;
+}
+
+.social-icons ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.social-icons ul li {
+  float: left;
+  margin-right: 8px;
+}
+
+.social-icons ul li:last-child {
+  margin-right: 0;
+}
+
+.social-icons ul li a {
+  color:#fff;
+  background-color: #d9d9d9;
+  height: 36px;
+  width: 36px;
+  line-height: 36px;
+  display: block;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.social-icons ul li a:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.social-icons ul li a.facebook {
+  background-color: #3b5999;
+}
+.social-icons ul li a.twitter {
+  background-color: #2ac6f7;
+}
+ .social-icons ul li a.dribbble {
+  background-color: #ff5b92;
+}
+.social-icons ul li a.linkedin {
+  background-color: #036dc0;
+}
+.social-icons ul li a.rss {
+  background-color: #ff6b00;
+}
